@@ -41,6 +41,8 @@ namespace BusinessLayer.Concrete
         {
             //throw new NotImplementedException();
             return _aboutDal.GetByID(id);
+
+
         }
 
         public List<About> TGetList()
@@ -54,6 +56,7 @@ namespace BusinessLayer.Concrete
             //throw new NotImplementedException();
             //void oldugu için return'e ihtiyaç duymayız.
              _aboutDal.Update(t);
+            //
         }
     }
 }
